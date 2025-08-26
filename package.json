@@ -1,15 +1,12 @@
 {
-	"name": "opennext-cf-isr-perf-test",
+	"name": "my-next-app",
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
 		"dev": "next dev --turbopack",
 		"build": "next build",
 		"start": "next start",
-		"lint": "next lint",
-		"deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
-		"preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
-		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts"
+		"lint": "next lint"
 	},
 	"dependencies": {
 		"next": "15.3.5",
@@ -25,7 +22,6 @@
 		"eslint": "^9",
 		"eslint-config-next": "15.3.5",
 		"tailwindcss": "^4",
-		"typescript": "^5",
-		"wrangler": "^4.27.0"
+		"typescript": "^5"
 	}
 }
