@@ -12,6 +12,7 @@
 		"cf-typegen": "wrangler types --env-interface CloudflareEnv ./cloudflare-env.d.ts"
 	},
 	"dependencies": {
+		"@highlight-run/next": "^7.9.38",
 		"@opennextjs/cloudflare": "https://pkg.pr.new/@opennextjs/cloudflare@850",
 		"next": "15.3.5",
 		"react": "^19.0.0",
